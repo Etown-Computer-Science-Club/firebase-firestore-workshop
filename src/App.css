@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 30px auto;
+	width: 80%;
+}
+
+.app {
+    text-align: center;
+}
+
+.app-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+main {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+}
+
+.todosTable {
+	width: 100%;
+}
+
+.deleteBtn {
+    background-color: #e74c3c; /* A slightly deeper shade of red */
+    color: #ffffff;            /* White text color */
+    border: none;              /* Remove default borders */
+    border-radius: 5px;        /* Rounded corners */
+    padding: 10px 15px;        /* Padding for better sizing */
+    font-size: 16px;           /* Slightly larger font */
+    font-weight: 600;          /* Bold font weight */
+    cursor: pointer;           /* Cursor changes to hand pointer on hover */
+}
+
+/* Container styling */
+.add-todo-container {
+    display: flex;           /* Arrange child elements in a row */
+    width: 100%;             /* Take up full width */
+    gap: 10px;               /* Space between input and button */
+    margin-bottom: 15px;     /* Add spacing between input and table */
+}
+
+/* Input field styling */
+.add-todo-container input {
+    flex-grow: 1;            /* Allow the input to take up available space */
+    padding: 10px;           /* Inner spacing */
+    font-size: 16px;         /* Font size */
+    border: 1px solid #ddd;  /* Border color */
+    border-radius: 5px;      /* Rounded corners */
+    outline: none;           /* Remove focus outline */
+}
+
+/* Button styling */
+.add-todo-container button {
+    padding: 10px 15px;      /* Padding */
+    font-size: 16px;         /* Font size */
+    background-color: #3498db; /* Button color */
+    color: #fff;            /* Text color */
+    border: none;           /* No border */
+    border-radius: 5px;     /* Rounded corners */
+    cursor: pointer;        /* Hand cursor on hover */
+}
