@@ -1,1 +1,1 @@
-# react-workshop
+# firebase-firestore-workshop
